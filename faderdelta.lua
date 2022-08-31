@@ -20,7 +20,7 @@ local function main(handle, params)
             local page = 1
 
             if args["page"] then
-                local page = args["page"]
+                page = args["page"]
             end
 
             local execObj = DataPool().Pages[page][exec]
