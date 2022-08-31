@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GMA3 DataVersion="1.8.1.0">
+    <UserPlugin Name="faderdelta" Version="0.0.0.1">
+        <ComponentLua Name="faderdelta" FileName="faderdelta.lua" />
+    </UserPlugin>
+</GMA3>
