@@ -15,7 +15,7 @@ local function main(handle, params)
     if params then
         local args = json.decode(params)
         if args["exec"] and args["delta"] then
-            local exec = args["exec"]
+            local exec = args["exec"] - 100
             local delta = args["delta"]
             local page = 1
 
